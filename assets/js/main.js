@@ -44,3 +44,27 @@ quizOptions.forEach(opt => opt.addEventListener('click', () => {
     result.style.display='block';
   }
 }));
+
+const contactForm = document.querySelector('#contactForm');
+if (contactForm) contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const notice = document.querySelector('#contactNotice');
+  if (notice) notice.style.display = 'block';
+  contactForm.reset();
+});
+
+
+const supportForm = document.querySelector('#supportForm');
+if (supportForm) supportForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const notice = document.querySelector('#supportNotice');
+  if (notice) notice.style.display = 'block';
+  supportForm.reset();
+});
+const supportSearch = document.querySelector('.support-search');
+if (supportSearch) supportSearch.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const input = supportSearch.querySelector('input');
+  if (input) input.value = '';
+  if (input) input.placeholder = 'Demo search submitted — connect real search before launch';
+});

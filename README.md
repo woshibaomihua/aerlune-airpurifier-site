@@ -47,3 +47,34 @@ aerlune-airpurifier-site/
 ## Included generated image
 - `generated-images/aerlune-homepage-full-preview.png`: full-page generated website visual preview.
 - `assets/images/aerlune-homepage-full-preview.png`: same image duplicated inside assets for convenience.
+
+
+## v2 updates
+- Added new generated product images for LUNA Mini, S1, Pro 600, H2, lineup, living room, about page, and contact page.
+- Added `about.html`, `contact.html`, and `faq.html`.
+- Updated existing pages to use the new generated images.
+
+
+## v3 update
+- Reorganized package and included the additional requested image as `assets/images/user-added-image.png` and `generated-images/user-added-image.png`.
+- Added a featured section in `products.html` using the added image.
+- Further expanded the About Us, Contact Us, and FAQ pages with more complete supporting sections.
+
+
+## v4 update
+- Added standalone product detail pages:
+  - `product-luna-mini.html`
+  - `product-s1.html`
+  - `product-pro-600.html`
+  - `product-h2.html`
+  - `product-detail.html` as a flagship template alias
+- Added support and policy pages:
+  - `support.html`
+  - `warranty.html`
+  - `shipping-policy.html`
+  - `returns-policy.html`
+- Updated product collection buttons to link to product detail pages.
+- Updated footer and sitemap with the new pages.
+
+### Important launch note
+All CADR, noise, coverage, warranty, shipping, returns and certification information is demo content. Replace it with your real product data, lab reports, compliance documents and business policy before going live.
