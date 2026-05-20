@@ -77,4 +77,22 @@ aerlune-airpurifier-site/
 - Updated footer and sitemap with the new pages.
 
 ### Important launch note
-All CADR, noise, coverage, warranty, shipping, returns and certification information is demo content. Replace it with your real product data, lab reports, compliance documents and business policy before going live.
+Performance values are no longer presented as unsupported final AERLUNE specifications. Product pages now use public competitor benchmark data and mark AERLUNE final lab results as pending factory verification.
+
+
+## v6 SEO + Premium Brand Upgrade
+- Added premium SEO stylesheet: `assets/css/seo-premium.css`.
+- Added canonical tags, Open Graph tags, robots meta and JSON-LD schema to key pages.
+- Fixed robots.txt and sitemap.xml to use the GitHub Pages domain instead of placeholder domains.
+- Added high-intent SEO landing pages: allergy, pet, smoke, bedroom, large room, HEPA guide, replacement filter guide and OEM private label page.
+- Rebuilt `learn.html` as a content hub with internal links to SEO articles.
+- Removed low-end/internal product gallery and download-image sections from product listing page.
+- Added `llms.txt` for AI-search/AEO context.
+- Softened unverified performance wording and added notes to replace benchmark specs with verified AERLUNE product data before launch.
+
+
+## v7 real benchmark data update
+- Removed unsupported placeholder product-performance claims from core product pages.
+- Added `verified-data.html` and `assets/data/air-purifier-real-benchmark-data.json`.
+- Product pages now show public benchmark data from named market models and explicitly separate benchmark data from final AERLUNE lab claims.
+- Added real-data internal links for SEO and trust.

@@ -66,5 +66,5 @@ if (supportSearch) supportSearch.addEventListener('submit', (e) => {
   e.preventDefault();
   const input = supportSearch.querySelector('input');
   if (input) input.value = '';
-  if (input) input.placeholder = 'Demo search submitted — connect real search before launch';
+  if (input) input.placeholder = 'Search submitted — connect live site search before launch';
 });
