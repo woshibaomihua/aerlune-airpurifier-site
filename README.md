@@ -1,0 +1,44 @@
+# AERLUNE Air Purifier Independent Website Package
+
+这是一个可直接部署到 GitHub Pages 的空气净化器独立站静态网站包。品牌、Logo、产品款式、页面素材、案例模块均为原创示例，适合后续继续改成真实品牌与真实产品数据。
+
+## 文件结构
+
+```text
+aerlune-airpurifier-site/
+├── index.html              # 首页
+├── products.html           # 产品集合页 / 分类筛选
+├── oem.html                # OEM / 批发询盘页
+├── case-studies.html       # 案例页
+├── learn.html              # SEO内容页
+├── assets/
+│   ├── css/styles.css      # 全站样式
+│   ├── js/main.js          # 移动菜单、筛选、表单演示、选择器
+│   └── images/*.svg        # 原创Logo、产品图、场景图、案例图
+└── README.md
+```
+
+## GitHub Pages 部署方式
+
+1. 新建一个 GitHub 仓库，例如：`aerlune-airpurifier-site`
+2. 把本文件夹内所有文件上传到仓库根目录
+3. 进入 GitHub 仓库：Settings → Pages
+4. Source 选择：Deploy from a branch
+5. Branch 选择：`main` / root
+6. 保存后等待 GitHub Pages 自动生成网址
+
+## 后续上线前建议修改
+
+- 把 AERLUNE 改成你的真实品牌名
+- 替换邮箱、电话、政策页面、公司信息
+- 把产品 CADR、噪音、适用面积、认证等改为真实检测数据
+- 询盘表单需要接入 Formspree、Netlify Forms、Shopify、HubSpot 或你的CRM
+- 如果涉及 H13 HEPA、CADR、CE、ETL、CARB、Energy Star 等认证宣称，请上传真实证书和报告
+
+## 页面特点
+
+- 响应式布局，手机端可用
+- 无外部依赖，不需要安装 Node.js
+- 原创 SVG 素材，上传后不依赖第三方图片链接
+- 包含首页、产品页、OEM页、案例页、内容页
+- 适合 GitHub Pages、Netlify、Vercel、Cloudflare Pages 静态部署

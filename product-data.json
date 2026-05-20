@@ -1,0 +1,50 @@
+[
+  {
+    "name": "LUNA Mini",
+    "img": "product-mini.svg",
+    "room": "small",
+    "coverage": "Up to 150 sq ft",
+    "price": "$129",
+    "badge": "Bedroom",
+    "cadr": "100 CFM",
+    "noise": "22–45 dB",
+    "best": "Bedrooms, desks",
+    "concern": "allergy sleep"
+  },
+  {
+    "name": "AERLUNE S1",
+    "img": "product-s1.svg",
+    "room": "medium",
+    "coverage": "Up to 350 sq ft",
+    "price": "$229",
+    "badge": "Best Seller",
+    "cadr": "220 CFM",
+    "noise": "24–50 dB",
+    "best": "Living rooms, nurseries",
+    "concern": "allergy pets sleep"
+  },
+  {
+    "name": "AERLUNE Pro 600",
+    "img": "product-pro.svg",
+    "room": "large",
+    "coverage": "Up to 700 sq ft",
+    "price": "$399",
+    "badge": "Large Room",
+    "cadr": "400 CFM",
+    "noise": "28–55 dB",
+    "best": "Open areas, offices",
+    "concern": "smoke allergy pets"
+  },
+  {
+    "name": "AERLUNE H2",
+    "img": "product-h2.svg",
+    "room": "medium",
+    "coverage": "Up to 400 sq ft",
+    "price": "$329",
+    "badge": "2-in-1",
+    "cadr": "210 CFM",
+    "noise": "24–48 dB",
+    "best": "Dry climates, bedrooms",
+    "concern": "sleep allergy"
+  }
+]
