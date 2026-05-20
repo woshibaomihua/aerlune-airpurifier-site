@@ -42,3 +42,8 @@ aerlune-airpurifier-site/
 - 原创 SVG 素材，上传后不依赖第三方图片链接
 - 包含首页、产品页、OEM页、案例页、内容页
 - 适合 GitHub Pages、Netlify、Vercel、Cloudflare Pages 静态部署
+
+
+## Included generated image
+- `generated-images/aerlune-homepage-full-preview.png`: full-page generated website visual preview.
+- `assets/images/aerlune-homepage-full-preview.png`: same image duplicated inside assets for convenience.
