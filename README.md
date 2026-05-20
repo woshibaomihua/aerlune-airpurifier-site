@@ -96,3 +96,7 @@ Performance values are no longer presented as unsupported final AERLUNE specific
 - Added `verified-data.html` and `assets/data/air-purifier-real-benchmark-data.json`.
 - Product pages now show public benchmark data from named market models and explicitly separate benchmark data from final AERLUNE lab claims.
 - Added real-data internal links for SEO and trust.
+
+
+## v8 Premium Growth + SEO update
+See `README-V8-GROWTH-SEO.md` for the full upgrade list.

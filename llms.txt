@@ -1,21 +1,20 @@
-# AERLUNE
+# AERLUNE Air Purifier Independent Site
 
-AERLUNE is a premium air purifier independent website focused on HEPA air purifiers for allergies, pets, smoke, dust, bedroom sleep, large rooms and replacement filters.
+AERLUNE is a premium HEPA air purifier prototype website built for SEO, AEO, AI search and independent-store conversion.
+
+Canonical site: https://woshibaomihua.github.io/aerlune-airpurifier-site/
 
 Important pages:
-- Homepage: https://woshibaomihua.github.io/aerlune-airpurifier-site/index.html
-- Products: https://woshibaomihua.github.io/aerlune-airpurifier-site/products.html
-- Allergies guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/air-purifier-for-allergies.html
-- Pet homes guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/air-purifier-for-pets.html
-- Smoke and odor guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/air-purifier-for-smoke.html
-- Bedroom guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/bedroom-air-purifier.html
-- Large room guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/large-room-air-purifier.html
-- HEPA guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/hepa-air-purifier.html
-- Replacement filter guide: https://woshibaomihua.github.io/aerlune-airpurifier-site/replacement-filter-guide.html
-- OEM air purifier private label: https://woshibaomihua.github.io/aerlune-airpurifier-site/oem-air-purifier-private-label.html
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/index.html — brand homepage and product discovery
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/products.html — benchmark-mapped product collection
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/verified-data.html — data integrity and public benchmark disclosure
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/performance-testing.html — CADR, noise, filter and certification testing checklist
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/air-purifier-for-allergies.html — allergy air purifier guide
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/air-purifier-for-pets.html — pet-home air purifier guide
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/air-purifier-for-smoke.html — smoke and odor guide
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/bedroom-air-purifier.html — bedroom air purifier guide
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/large-room-air-purifier.html — large-room air purifier guide
+- https://woshibaomihua.github.io/aerlune-airpurifier-site/oem-air-purifier-private-label.html — OEM/private label air purifier page
 
-Positioning:
-Premium, calm, modern indoor air care brand with B2C product storytelling and B2B OEM / private label support.
-
-
-Real data note: `/verified-data.html` and `/assets/data/air-purifier-real-benchmark-data.json` contain public benchmark values sourced from cited editorial/testing pages. AERLUNE final product specifications are not invented; they must be replaced with factory lab results before commercial use.
+Data policy:
+Public benchmark data is for market positioning only. Final AERLUNE commercial claims require verified factory lab reports, CADR test data, noise testing, certification documents and filter-grade evidence.
