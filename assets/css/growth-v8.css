@@ -210,15 +210,18 @@
 .lead-consent input{width:auto;margin-top:3px}
 .lead-submit{width:100%;font-size:15px}
 .lead-note{margin:14px 0 0;color:var(--v8-muted);font-size:12px;line-height:1.5}
-.floating-inquiry-cta{position:fixed;right:22px;bottom:22px;z-index:80;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 18px;border-radius:999px;background:linear-gradient(135deg,#0b70b7,#064c89);color:#fff!important;font-weight:950;box-shadow:0 20px 48px rgba(11,112,183,.28);border:1px solid rgba(255,255,255,.45);animation: v8-floating-drift 3s ease-in-out infinite;}
+.floating-inquiry-cta{position:fixed;right:32px;bottom:32px;z-index:80;display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 22px;border-radius:999px;background:linear-gradient(135deg,#0b70b7,#064c89);color:#fff!important;font-weight:950;box-shadow:0 25px 55px rgba(11,112,183,.32);border:1px solid rgba(255,255,255,.5);animation: v8-wandering-float 12s linear infinite;transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;}
 
-@keyframes v8-floating-drift {
-  0% { transform: translateY(0); box-shadow: 0 20px 48px rgba(11,112,183,.28); }
-  50% { transform: translateY(-12px); box-shadow: 0 35px 60px rgba(11,112,183,.35); }
-  100% { transform: translateY(0); box-shadow: 0 20px 48px rgba(11,112,183,.28); }
+@keyframes v8-wandering-float {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  20% { transform: translate(-15px, -25px) rotate(2deg); }
+  40% { transform: translate(25px, -45px) rotate(-2deg); }
+  60% { transform: translate(-30px, -65px) rotate(3deg); }
+  80% { transform: translate(15px, -35px) rotate(-1deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
 }
 
-.floating-inquiry-cta:hover{transform:translateY(-15px) scale(1.05); animation-play-state: paused;}
+.floating-inquiry-cta:hover{transform: scale(1.1) translateY(-5px); animation-play-state: paused; box-shadow: 0 35px 70px rgba(11,112,183,0.45); cursor: pointer;}
 .lead-conversion-bar{background:#0b294f;color:#fff;padding:14px 0}
 .lead-conversion-bar .v8-shell{display:flex;justify-content:center;align-items:center;gap:18px;font-size:14px;font-weight:900}
 .lead-conversion-bar a{color:#fff;text-decoration:underline;text-underline-offset:4px}
